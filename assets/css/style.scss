@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+// .center {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 50%;
+// }
 
 ul {
   list-style-type: none;
@@ -16,6 +16,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  padding-bottom: 20px;
 }
 
 li {
