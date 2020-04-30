@@ -10,7 +10,7 @@
   width: 50%;
 }
 
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,11 +19,11 @@ ul {
   margin-bottom: 20px;
 }
 
-li {
+.list {
   float: left;
 }
 
-li a {
+.list a {
   display: block;
   color: white;
   text-align: center;
@@ -32,6 +32,6 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.list a:hover {
   background-color: #111;
 }
