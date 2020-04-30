@@ -23,7 +23,7 @@
   float: left;
 }
 
-.list a {
+.listLink{
   display: block;
   color: white;
   text-align: center;
@@ -32,6 +32,6 @@
 }
 
 /* Change the link color to #111 (black) on hover */
-.list a:hover {
+.listLink a:hover {
   background-color: #111;
 }
