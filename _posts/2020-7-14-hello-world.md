@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
+category: Personal
 ---
 
 Hello World! Welcome to my first blog post!
