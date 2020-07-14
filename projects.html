@@ -14,7 +14,16 @@ layout: default
 </head>
 <body>
   <h1>Projects</h1>
-  <p>Below you'll find a few of my more interesting projects with an image and a small description.</p>
+
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+  <!-- <p>Below you'll find a few of my more interesting projects with an image and a small description.</p>
 
   <div style="margin:5%;">
   <h3>Gir 3D Model - Maya</h3>
@@ -34,6 +43,6 @@ layout: default
     <div style="margin:5%; clear:both; padding-top: 10%;">
     <h3>Ray Bradbury Book Cover - Adobe Illustrator</h3>
       <p><img src="assets/images/Projects/space.png" style="padding-right:5%; float:left;" width="60%" height="auto"> I created a book cover using Adobe Illustrator for
-        Ray Bradbury's <i>The Exiles</i> for a previously taken art class.<br><br></p></div>
+        Ray Bradbury's <i>The Exiles</i> for a previously taken art class.<br><br></p></div> -->
   <!-- <p><img src="assets/images/IMG_1715.png" alt="Me!" /></p> -->
  </body>
