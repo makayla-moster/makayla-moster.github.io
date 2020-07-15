@@ -15,8 +15,8 @@ layout: default
 <body>
   <h1>Blog</h1>
   <a href="/categories.html">See recent posts by category.</a> <br>
-  <a href="/allblog.html" style="margin-bottom: .5em;">See all blog posts ever.</a>
-  <h2>Latest Posts:</h2>
+  <a href="/allblog.html">See all blog posts ever.</a>
+  <h2 style="padding-top: 1em;">Latest Posts:</h2>
   <ul>
     {% for post in site.posts limit:7 %}
       <li>
