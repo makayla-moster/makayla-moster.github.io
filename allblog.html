@@ -19,7 +19,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a><br>
-        Category: {{ post.categories }} <br>
+        <small>Category: {{ post.categories }} </small><br>
         {{ post.excerpt }}
       </li>
     {% endfor %}
