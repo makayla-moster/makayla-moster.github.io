@@ -50,7 +50,7 @@
 
       </section>
       <footer>
-        <p><small>&copy; Makayla Moster<br> Last updated: {{site.time}} </small> </p>
+        <p><small>&copy; Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
 
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
