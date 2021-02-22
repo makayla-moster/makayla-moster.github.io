@@ -1,5 +1,9 @@
 theme: jekyll-theme-minimal
 title: Makayla Moster
+<<<<<<< HEAD
 description: CS Ph.D. student at Clemson University <br/> <a href="http://clemsonhfse.com/index.html" target="_blank">Human Factors Software Engineering</a> <br/> Pronouns - she/her/hers
+=======
+description: CS Ph.D. student at Clemson University <br/> <a href="http://clemsonhfse.com/index.html" target="_blank">Human Factors Software Engineering</a> <br/> Pronouns: she/her/hers
+>>>>>>> 33f08a6fd2b701ec4a94e66f580da760f49ca3ce
 logo: assets/images/IMG_1715.png
 google_analytics: UA-165249753-1
