@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header  onload="newQuote()">
+      <header  onload="newQuote();">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -37,7 +37,7 @@
         <a href="https://dblp.org/pid/278/0537.html" target="_blank"> <img src="/assets/images/dblp-logo.png" alt="dblp logo" width="5%" height="auto" style="margin-right:.5em;">DBLP</a>
         <br> <br> Pronouns: she/her/hers
         <div id="quoteDisplay"></div>
-        <script src="quotes.js"></script>
+        <script type="text/javascript" src="quotes.js"></script>
         {% endif %}
 
         {% if site.show_downloads %}
