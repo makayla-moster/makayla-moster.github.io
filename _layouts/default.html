@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header  onload="newQuote()">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -36,6 +36,8 @@
         <a href="https://scholar.google.com/citations?hl=en&user=hfjoBY0AAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F6q4Yy8oZ1N-1PjHDlI43gZQ1nmm8XomMXrrhwpRFxWpR_a8qtSDCVdobWC_Ygqe73rHO-tQENKNUes3zLENciYerbEJA" target="_blank"><img src="/assets/images/scholar.svg" alt="Google Scholar logo" width="5%" height="auto" style="margin-right:.5em;">Google Scholar</a> <br>
         <a href="https://dblp.org/pid/278/0537.html" target="_blank"> <img src="/assets/images/dblp-logo.png" alt="dblp logo" width="5%" height="auto" style="margin-right:.5em;">DBLP</a>
         <br> <br> Pronouns: she/her/hers
+        <div id="quoteDisplay"></div>
+        <script src="quotes.js"></script>
         {% endif %}
 
         {% if site.show_downloads %}
@@ -51,17 +53,15 @@
       {{ content }}
 
       </section>
-      <footer onload="newQuote()">
-        <p id="quoteDisplay"></p>
+      <footer>
+
         <p><small>&copy; Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
 
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
-        <script src="quotes.js">
 
-        </script>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
