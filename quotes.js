@@ -13,8 +13,8 @@ var quotes = [
   'It is better to walk alone, then with a crowd going in the wrong direction.<br><small>~ Herman Siu</small>',
   'Keep your eyes on the stars, and your feet on the ground. <br><small>~ Teddy Roosevelt</small>',
   'To live will be an awfully big adventure. <br><small>~ J.M. Barrie</small>',
-  'We are all broken, that\'s how the light gets in. <br><small>~ Ernest Hemingway</small>',
-  'If you aren\'t in over your head, how do you know how tall you are? <br><small>~ T.S. Eliot</small>''
+  "We are all broken, that's how the light gets in. <br><small>~ Ernest Hemingway</small>",
+  "If you aren't in over your head, how do you know how tall you are? <br><small>~ T.S. Eliot</small>""
 ]
 
 function newQuote() {
