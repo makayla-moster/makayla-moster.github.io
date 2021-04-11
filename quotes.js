@@ -30,7 +30,7 @@ var quotes = [
   'The past can hurt. But the way I see it, you can either run from it, or learn from it. <br><small>~ Rafiki</small>',
   'Inconceivable! <br><small>~ Vizzini</small>',
   'You&#39;re only given a little spark of madness. You mustn&#39;t lose it. <br><small>~ Robin Williams</small>',
-  'Out there may be monsters, my dear. <br> But in you still lives the dragon <br>you should always believe in. <br><small>~ Nikita Gill</small>'
+  'Out there may be monsters, my dear. <br> But in you still lives the dragon <br>you should always believe in. <br><small>~ Nikita Gill</small>',
   'We are all broken, that&#39;s how the light gets in. <br><small>~ Ernest Hemingway</small>',
   'If you aren&#39;t in over your head, how do you know how tall you are? <br><small>~ T.S. Eliot</small>',
   'You&#39;ll never do a whole lot unless you&#39;re brave enough to try. <br><small>~ Dolly Parton</small>',
