@@ -36,7 +36,8 @@ var quotes = [
   'You&#39;ll never do a whole lot unless you&#39;re brave enough to try. <br><small>~ Dolly Parton</small>',
   'What&#39;s comin&#39; will come, and we&#39;ll meet it when it does. <br><small>~ Hagrid</small>',
   'People will forget what you said, people will forget what you did, but people will never forget how you made them feel. <br><small>~ Maya Angelou</small>',
-  'You can&#39;t go back and change the beginning, but you can start where you are and change the ending. <br><small>~ C.S. Lewis</small>'
+  'You can&#39;t go back and change the beginning, but you can start where you are and change the ending. <br><small>~ C.S. Lewis</small>',
+  'The world used to be a bigger place. <br><small>~ Captain Barbossa</small> <br> <br> World&#39;s still the same. There&#39;s just less in it.<br><small>~ Captain Jack Sparrow</small>'
 ]
 
 function newQuote() {
