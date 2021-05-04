@@ -40,7 +40,16 @@ var quotes = [
   'The world used to be a bigger place. <br><small>~ Captain Barbossa</small> <br> <br> World&#39;s still the same. There&#39;s just less in it.<br><small>~ Captain Jack Sparrow</small>',
   'Sometimes life is like this dark tunnel, you can’t always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place.<br><small>~ Uncle Iroh</small>',
   'Failure is only the opportunity to begin again.<br><small>~ Uncle Iroh</small>',
-  'Hope is something you give yourself. That is the meaning of inner strength. <br><small>~ Uncle Iroh</small>'
+  'Hope is something you give yourself. That is the meaning of inner strength. <br><small>~ Uncle Iroh</small>',
+  'We&#39;ve all got both light and dark inside us. What matters is the part we choose to act upon. That&#39;s who we really are. <br><small>~ Sirius Black</small>',
+  'Not all treasure is silver and gold, mate. <br><small>~ Captain Jack Sparrow</small>',
+  'Today or never, that&#39;s my motto. <br><small>~ Mary Poppins</small>',
+  'May the odds be ever in your favor. <br><small>~ Effie Trinket</small>',
+  'People say nothing is impossible, but I do nothing every day. <br><small>~Winnie the Pooh</small>',
+  'You must strive to find your own voice because the longer you wait to begin, the less likely you are to find it at all. <br><small>~ Dead Poets Society</small>',
+  'You&#39;re killin&#39; me smalls! <br><small>~ The Sandlot</small>',
+  'I, myself, am strange and unusual. <br><small>~ Beetlejuice</small>',
+  'Be yourself. Everyone else is taken. <br><small>~ Oscar Wilde</small>'
 ]
 
 function newQuote() {
