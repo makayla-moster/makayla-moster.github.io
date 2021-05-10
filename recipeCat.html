@@ -18,35 +18,15 @@ layout: default
 
 <body>
   <h1 style="padding-top:.5em;">Grad Student tries <code>#Something</code></h1>
-  <small><a href="/blog.html">back</a></small>
-  <h2 style="margin-top: 5%;">Posts by Category</h2>
-
-<ul>
-  <li><h3><a href="/announcementCat.html">Annoucements</a></h3></li>
-  <li><h3><a href="/GradSchoolCat.html">GradSchool</a></h3></li>
-  <li><h3><a href="/personalCat.html">Personal</a></h3></li>
-  <li><h3><a href="/recipeCat.html">Recipes</a></h3></li>
-</ul>
-
-
-
-  <!-- <ul>
-    {% for post in site.categories.Annoucements limit:5 %}
+  <small><a href="/categories.html">back</a></small>
+  <h2 style="margin-top: 5%;">Category: Recipes</h2>
+  <ul>
+    {% for post in site.categories.Recipes %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a><br><br>
+        <a href="{{ post.url }}">{{ post.title }}</a><br>
+        <small>Category: {{post.categories | join: ', '}} </small><br><br>
         {{ post.excerpt }} <a href="{{ post.url }}">Continue reading...</a><br><br>
       </li>
     {% endfor %}
-  </ul> -->
-
-
-  <!-- <ul>
-    {% for post in site.categories.Personal limit:5 %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a><br><br>
-        {{ post.excerpt }} <a href="{{ post.url }}">Continue reading...</a><br><br>
-      </li>
-    {% endfor %}
-  </ul> -->
-
+  </ul>
 </body>
