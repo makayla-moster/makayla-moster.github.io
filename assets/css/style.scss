@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+}
+
 .dark{
   background-color: #222;
   color: #e6e6e6;
