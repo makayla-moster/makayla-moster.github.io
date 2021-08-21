@@ -49,7 +49,8 @@ var quotes = [
   'You must strive to find your own voice because the longer you wait to begin, the less likely you are to find it at all. <br><small>~ Dead Poets Society</small>',
   'You&#39;re killin&#39; me smalls! <br><small>~ The Sandlot</small>',
   'I, myself, am strange and unusual. <br><small>~ Beetlejuice</small>',
-  'Be yourself. Everyone else is taken. <br><small>~ Oscar Wilde</small>'
+  'Be yourself. Everyone else is taken. <br><small>~ Oscar Wilde</small>',
+  'If more of us valued food and cheer and song above hoarded gold, it would be a merrier world <br><small>~ J.R.R. Tolkien</small></br>'
 ]
 
 function newQuote() {
