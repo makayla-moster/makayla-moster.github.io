@@ -3,31 +3,22 @@
 
 @import "{{ site.theme }}";
 
-// .dark {
-//   background-color: #222;
-//   color: #e6e6e6;
-// }
-//
-// .dark h1 {
-//   color: #e6e6e6;
-// }
-//
-// .dark h2, h3, h4, h5 {
-//   color: #e1e1e1;
-// }
+background-color: var(--background-color);
 
-.change {
-    cursor: pointer;
-    border: 1px solid #555;
-    border-radius: 40%;
-    width: 20px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 8px;
+html {
+	  --light-text-color: #222;
+  	--link-color: #267CB9;
+  	--main-background-color: #fff;
+  	--main-text-color: #727272;
 }
-.dark{
-    background-color: #222;
-    color: #e6e6e6;
+
+@media (prefers-color-scheme: dark) {
+	html {
+		  --light-text-color: rgb(199, 199, 204);
+  		--link-color: #267CB9;
+  		--main-background-color: rgb(28, 28, 30);
+  		--main-text-color: rgb(229, 229, 234);
+	}
 }
 
 .center {
