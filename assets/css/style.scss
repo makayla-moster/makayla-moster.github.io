@@ -3,28 +3,28 @@
 
 @import "{{ site.theme }}";
 
-html {
-  	--link-color: #267CB9;
-  	--main-background-color: #fff;
-  	--main-text-color: #727272;
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-  		--link-color: #267CB9;
-  		--main-background-color: #222;
-  		--main-text-color: rgb(229, 229, 234);
-	}
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--main-text-color);
-}
-
-a {
-  color: var(--link-color);
-}
+// html {
+//   	--link-color: #267CB9;
+//   	--main-background-color: #fff;
+//   	--main-text-color: #727272;
+// }
+//
+// @media (prefers-color-scheme: dark) {
+// 	html {
+//   		--link-color: #267CB9;
+//   		--main-background-color: #222;
+//   		--main-text-color: rgb(229, 229, 234);
+// 	}
+// }
+//
+// body {
+//   background-color: var(--background-color);
+//   color: var(--main-text-color);
+// }
+//
+// a {
+//   color: var(--link-color);
+// }
 
 .center {
   display: block;
