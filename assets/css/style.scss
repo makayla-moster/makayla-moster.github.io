@@ -3,21 +3,31 @@
 
 @import "{{ site.theme }}";
 
-h1, h2, h3, h4, h5, h6 {
-  color: #222222 !important;
-}
+// .dark {
+//   background-color: #222;
+//   color: #e6e6e6;
+// }
+//
+// .dark h1 {
+//   color: #e6e6e6;
+// }
+//
+// .dark h2, h3, h4, h5 {
+//   color: #e1e1e1;
+// }
 
-.dark {
-  background-color: #222;
-  color: #e6e6e6;
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
 }
-
-.dark h1 {
-  color: #e6e6e6;
-}
-
-.dark h2, h3, h4, h5 {
-  color: #e1e1e1;
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
 }
 
 .center {

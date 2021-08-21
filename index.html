@@ -16,7 +16,10 @@ layout: default
   </ul>
 </head>
 <body>
-  <button onclick="myFunction()">Switch mode</button>
+  <div class="mode">
+        Dark mode:
+        <span class="change">OFF</span>
+    </div>
   <h1>Hello World!</h1>
   <p>My name is Makayla Moster and I am a Ph.D. candidate studying Computer Science at
     Clemson University. In the summer of 2020, I joined the <a href="http://clemsonhfse.com/index.html" target="_blank">Human Factors Software Engineering (HFSE)</a> lab
@@ -50,10 +53,16 @@ layout: default
     <li>Joined the <a href="http://clemsonhfse.com/index.html" target="_blank">Human Factors Software Engineering team</a> over the summer.</li>
   </ul>
   Older news can be found <a href="./news.html">here.</a>
+
   <script>
-      function myFunction() {
-      var element = document.body;
-      element.classList.toggle("dark");
-      }
+      $( ".change" ).on("click", function() {
+          if( $( "body" ).hasClass( "dark" )) {
+              $( "body" ).removeClass( "dark" );
+              $( ".change" ).text( "OFF" );
+          } else {
+              $( "body" ).addClass( "dark" );
+              $( ".change" ).text( "ON" );
+          }
+      });
   </script>
  </body>
