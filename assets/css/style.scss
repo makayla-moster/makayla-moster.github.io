@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+
 .center {
   display: block;
   margin-left: auto;
