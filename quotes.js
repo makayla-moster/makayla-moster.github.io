@@ -50,7 +50,13 @@ var quotes = [
   'You&#39;re killin&#39; me smalls! <br><small>~ The Sandlot</small>',
   'I, myself, am strange and unusual. <br><small>~ Beetlejuice</small>',
   'Be yourself. Everyone else is taken. <br><small>~ Oscar Wilde</small>',
-  'If more of us valued food and cheer and song above hoarded gold, it would be a merrier world <br><small>~ J.R.R. Tolkien</small></br>'
+  'If more of us valued food and cheer and song above hoarded gold, it would be a merrier world <br><small>~ J.R.R. Tolkien</small>',
+  'What exactly is the function of a rubber duck? <br><small>~ Arthur Weasley</small>',
+  'The way I see it, if you want the rainbow, you gotta put up with the rain.<br><small>~ Dolly Parton</small>',
+  'Pour yourself a cup of ambition.<br><small>~ Dolly Parton</small>',
+  'If you don&#39;t like the road you&#39;re walking, start paving another.<br><small>~ Dolly Parton</small>',
+  'Raise hell, kid.',
+  'Well behaved women seldom make history. <br><small>~ Laurel Thatcher Ulrich</small>'
 ]
 
 function newQuote() {
