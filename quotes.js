@@ -56,7 +56,9 @@ var quotes = [
   'Pour yourself a cup of ambition.<br><small>~ Dolly Parton</small>',
   'If you don&#39;t like the road you&#39;re walking, start paving another.<br><small>~ Dolly Parton</small>',
   'Raise hell, kid.',
-  'Well behaved women seldom make history. <br><small>~ Laurel Thatcher Ulrich</small>'
+  'Well behaved women seldom make history. <br><small>~ Laurel Thatcher Ulrich</small>',
+  'It always seems impossible until it&#39;s done. <br><small>~ Nelson Mandela</small>',
+  'Hitch your wagon to a star. <br><small>~ Ralph Waldo Emerson</small>'
 ]
 
 function newQuote() {
