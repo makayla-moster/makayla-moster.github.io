@@ -53,12 +53,12 @@
         </ul>
         {% endif %}
       </header>
-      <section style="position: relative;">
+      <section>
 
       {{ content }}
 
       </section>
-      <footer style="position: absolute; bottom: 0; width: 100%; height: 2.5rem">
+      <footer style="position: fixed; bottom: 0;">
         <p><small>&copy; Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
 
         {% if site.github.is_project_page %}
