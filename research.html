@@ -16,6 +16,8 @@ layout: default
   </ul>
 </head>
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
   <h1>Publications</h1>
   <p><strong>My Research Interests:</strong> Computer Science Education, Software Engineering Education, Remote Work/Learning, and Human-Computer Interaction</p>
   <h3>2022</h3>
@@ -34,7 +36,8 @@ layout: default
     <li><strong>Generating Plant Models using Fractals</strong> (2018, directed independent study)<br><a href="assets/images/Poster.pdf" target="_blank">Poster</a>&emsp;<a href="https://github.com/makayla-moster/FractalTree" target="_blank">GitHub</a></li>
   <ul>
   <!-- <p><img src="assets/images/IMG_1715.png" alt="Me!" /></p> -->
-  <footer style="position: absolute; bottom: 0; padding-bottom: 2%;">
+  </div>
+  <footer id="footer" style="position: absolute; bottom: 0; padding-bottom: 2%;">
     <p><small>&copy; 2022 Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
 
     {% if site.github.is_project_page %}
@@ -43,4 +46,5 @@ layout: default
     <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
 
   </footer>
+  </div>
  </body>
