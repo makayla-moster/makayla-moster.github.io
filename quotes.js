@@ -58,7 +58,8 @@ var quotes = [
   'Raise hell, kid.',
   'Well behaved women seldom make history. <br><small>~ Laurel Thatcher Ulrich</small>',
   'It always seems impossible until it&#39;s done. <br><small>~ Nelson Mandela</small>',
-  'Hitch your wagon to a star. <br><small>~ Ralph Waldo Emerson</small>'
+  'Hitch your wagon to a star. <br><small>~ Ralph Waldo Emerson</small>',
+  'Don’t get so busy making a living that you forget to make a life. <br><small>~ Dolly Parton</small>'
 ]
 
 function newQuote() {

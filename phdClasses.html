@@ -17,6 +17,8 @@ layout: default
 </head>
 
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
   <small><a href="/education.html">back</a></small>
   <h1 style="padding-top:.5em;">Ph.D. Classes I've Taken:</h1>
 
@@ -67,4 +69,15 @@ layout: default
     <li>CPSC 8810 - Surface Geometry</li>
     <li>CPSC 9500 - New PhD Student Seminar</li>
   </ul>
+  </div>
+  <footer id="footer" style="position: absolute; bottom: 0; padding-bottom: 2%;">
+    <p><small>&copy; 2022 Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
+
+    {% if site.github.is_project_page %}
+    <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    {% endif %}
+    <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
+
+  </footer>
+  </div>
 </body>

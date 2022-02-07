@@ -16,6 +16,8 @@ layout: default
   </ul>
 </head>
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
   <h1>Contact Me</h1>
   <p><strong>My Research Interests:</strong> Computer Science Education, Software Engineering Education, Remote Work/Learning, and Human-Computer Interaction</p>
   <p>If you're interested in collaborating or are interested in learning more
@@ -37,4 +39,15 @@ layout: default
     </form>
 
   <!-- <p><img src="assets/images/IMG_1715.png" alt="Me!" /></p> -->
+</div>
+  <footer id="footer" style="position: absolute; bottom: 0; padding-bottom: 2%;">
+    <p><small>&copy; 2022 Makayla Moster<br> Last updated: {{site.time | date_to_string}} </small> </p>
+
+    {% if site.github.is_project_page %}
+    <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    {% endif %}
+    <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
+
+  </footer>
+  </div>
  </body>
