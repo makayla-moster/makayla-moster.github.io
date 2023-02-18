@@ -1,6 +1,26 @@
-theme: jekyll-theme-minimal
-title: Makayla Moster
-description: CS Ph.D. student, Clemson University <br/> <a href="http://clemsonhfse.com/index.html" target="_blank">Human Factors Software Engineering</a>
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Makayla Moster
+tagline:          'CS Ph.D. Student'
+description:      'CS Ph.D. Student <br/> Clemson University'
+url:              https://makayla-moster.github.io/
+baseurl:          /
 logo: assets/images/IMG_1715.png
-google_analytics: UA-165249753-1
-url: https://makayla-moster.github.io
+author:
+  name:           'Makayla Moster'
+  url:            https://makayla-moster.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/makayla-moster/makayla-moster

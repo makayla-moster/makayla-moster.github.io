@@ -1,36 +1,25 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="style.scss">
-<ul class="nav">
-  <li class="list"><a href="https://makayla-moster.github.io/index.html" class="listLink">Home</a></li>
-  <!-- <li class="list"><a href="./news.html" class="listLink">News</a></li> -->
-  <li class="list"><a href="https://makayla-moster.github.io/education.html" class="listLink">Education</a></li>
-  <li class="list"><a href="https://makayla-moster.github.io/research.html" class="listLink">Publications</a></li>
-  <!-- <li class="list"><a href="./projects.html" class="listLink">Blog</a></li> -->
-  <li class="list"><a href="https://makayla-moster.github.io/service.html" class="listLink">Service</a></li>
-  <li class="list"><a href="https://makayla-moster.github.io/CV.html" class="listLink">CV</a></li>
-  <li class="list"><a href="https://makayla-moster.github.io/contact.html" class="listLink">Contact</a></li>
-</ul>
 
-<p>
-<small><a href="/blog.html">Return to blog home</a></small>
-</p>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - Makayla Moster <br> {{page.categories | join: ', '}}</p>
-
-{{ content }}
-
-
-<p style="padding-top:5%;">
-<a href="/blog.html">Return to blog home</a>
-</p>
-
-<script src="https://utteranc.es/client.js"
-        repo="makayla-moster/makayla-moster.github.io"
-        issue-term="title"
-        theme="boxy-light"
-        crossorigin="anonymous"
-        async>
-</script>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
