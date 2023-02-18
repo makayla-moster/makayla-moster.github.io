@@ -5,22 +5,10 @@ highlighter:      pygments
 # Permalinks
 permalink:        pretty
 
-
 # Setup
 title:            Makayla Moster
 tagline:          'CS Ph.D. Student'
 description:      'CS Ph.D. Student <br/> Clemson University'
-url:              https://makayla-moster.github.io/
-baseurl:          makayla-moster.github.io/
+url:              https://makayla-moster.github.io/makayla-moster.github.io/
+baseurl:          /
 logo:             /assets/images/IMG_1715.png
-author:
-  name:           'Makayla Moster'
-  url:            https://makayla-moster.github.io
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/makayla-moster/makayla-moster.github.io
