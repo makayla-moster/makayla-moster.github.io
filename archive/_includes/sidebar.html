@@ -1,0 +1,62 @@
+<body onload="newQuote();">
+
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      {% if site.logo %}
+        <!-- <img src="{{site.logo | baseurl}}" alt="Logo" /> -->
+        <img src="assets/images/IMG_1715.png" alt="Logo">
+      {% endif %}
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <br>
+      <div>
+      <a href="https://github.com/makayla-moster" target="_blank"><img src="/assets/images/github-mark-white.png" alt="View My GitHub Profile" width="20%" height="auto" style="padding-right:7%; float:left;"></a>
+      <a href="https://www.linkedin.com/in/mmoster/" target="_blank"><img src="/assets/images/In-White-72.png" alt="Connect on LinkedIn" width="20%" height="auto" style="padding-right:7%; float:left;"></a>
+      <a href="https://twitter.com/makaylamoster" target="_blank"><img src="/assets/images/twitter-white.png" alt="Connect on Twitter" width="20%" height="auto" style="padding-right:7%; float:left;"></a>
+
+      <!-- <div itemscope itemtype="https://schema.org/Person" style="padding-top:5%;"><a itemprop="sameAs" content="https://orcid.org/0000-0002-0661-0550" href="https://orcid.org/0000-0002-0661-0550" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="/assets/images/orcid.png" style="width:1.8em;margin-right:1em;float: left;" alt="ORCID iD icon"></a></div> -->
+      <a href="https://scholar.google.com/citations?hl=en&user=hfjoBY0AAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F6q4Yy8oZ1N-1PjHDlI43gZQ1nmm8XomMXrrhwpRFxWpR_a8qtSDCVdobWC_Ygqe73rHO-tQENKNUes3zLENciYerbEJA" target="_blank"><img src="/assets/images/scholar.svg" alt="Google Scholar logo" width="10%" height="auto" style="margin-right:1em;float:left;"></a>
+      <!-- <a href="https://dblp.org/pid/278/0537.html" target="_blank"> <img src="/assets/images/dblp-logo.png" alt="dblp logo" width="12%" height="auto" style="margin-right:.5em;"></a> -->
+      </div>
+      <a href="mailto:mmoster@clemson.edu" target="_blank" style="clear: both;">mmoster@clemson.edu</a>
+      <p>she/her/hers</p>
+
+      <!-- <br> -->
+
+      <!--<br> <br>
+      <!--<a href="{{ site.url }}/feed.xml"><img src="/assets/images/rss.png" alt="RSS Feed logo" width="5%" height="auto" style="margin-right:.5em;"></a></a><a href="https://makayla-moster.github.io/blog.html">Grad Student tries #Something</a>-->
+      <!-- <br> <br> <span style="color:#267CB9;">Email</span>: mmoster [at] clemson [dot] edu
+      <br> <span style="color:#267CB9;">Pronouns</span>: she/her/hers
+      <br><br>-->
+      <!-- <p id="quoteDisplay"></p> -->
+    </nav>
+
+    <p style="clear: both;">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
+</body>
