@@ -6,9 +6,16 @@ import { Link } from 'gatsby'
 const PublicationsPage = () => {
   return (
     <Layout pageTitle='Publications'>
+      <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
+      <ul className='pb-5'>
+        <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Boyer, D. M., Rodeghero, P. "Experiences with Summer Camp Communication via Discord", <span className="text-cyan-500 italic">to appear</span> in Proc. of the 46th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track" target="_blank">ICSE SEET '24</Link></span>), Lisbon, Portugal, April 14-20, 2024. </li>
+       <li><span className="text-cyan-500 font-archivoNarrow">pre-print coming soon</span></li>
+        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2023_ICSE_NIER_Trolling.pdf" target="_blank">pre-print</Link></span></li> */}
+      </ul>
+
       <h1 className='font-archivoNarrow text-3xl pb-5'>2023</h1>
       <ul className='pb-5'>
-        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Dominic, J., Rodeghero, P. "Under the Bridge: Trolling and the Challenges of Recruiting Software Developers for Empirical Research Studies", in Proc. of the 45th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2023/icse-2023-NIER?" target="_blank">ICSE NIER '23</Link></span>), Melbourne, Australia, 17-19 May 2023. </li>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Dominic, J., Rodeghero, P. "Under the Bridge: Trolling and the Challenges of Recruiting Software Developers for Empirical Research Studies", in Proc. of the 45th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2023/icse-2023-NIER?" target="_blank">ICSE NIER '23</Link></span>), Melbourne, Australia, May 17-19, 2023. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2023_ICSE_NIER_Trolling.pdf" target="_blank">pre-print</Link></span></li>
       </ul>
 
