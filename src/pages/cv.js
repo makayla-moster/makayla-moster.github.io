@@ -118,8 +118,8 @@ const CvPage = () => {
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Judge</span> <span className='float-right'>Clemson Tigertown Throwdown Robotics Competition</span></li>
                 <li className='float-none pb-5'>Clemson University<span className='float-right'>February 4, 2023</span></li>
                 
-                <li className='float-none pb-5'><span className='font-archivoNarrow text-cyan-500 text-2xl'>President</span> <span className='float-right'>School of Computing Graduate Student Associaton</span></li>
-                <li className='float-none'>Clemson University<span className='float-right'>August 2022 - Present</span></li>
+                <li className='float-none'><span className='font-archivoNarrow text-cyan-500 text-2xl'>President</span> <span className='float-right'>School of Computing Graduate Student Associaton</span></li>
+                <li className='float-none pb-5'>Clemson University<span className='float-right'>August 2022 - Present</span></li>
                 {/* <li>SoCGSA is a student organization that represents and holds events for computing graduate students in CS, HCC, DPA, and BDSI.</li>
                 <li className='pb-5'>Conducted administrative duties, organization of events, and task delegation.</li> */}
                 
