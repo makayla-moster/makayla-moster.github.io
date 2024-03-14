@@ -8,6 +8,18 @@ const PublicationsPage = () => {
     <Layout pageTitle='Publications'>
       <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
       <ul className='pb-10'>
+        <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P. (2024, June), "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon. </li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
+        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
+      </ul>
+
+      <ul className='pb-10'>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. (2024, June), "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon. </li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
+        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
+      </ul>
+
+      <ul className='pb-10'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Boyer, D. M., Rodeghero, P. "Experiences with Summer Camp Communication via Discord", <span className="text-cyan-500 italic">to appear</span> in Proc. of the 46th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track" target="_blank">ICSE SEET '24</Link></span>), Lisbon, Portugal, April 14-20, 2024. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li>
       </ul>

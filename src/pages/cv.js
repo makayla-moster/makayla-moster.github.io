@@ -5,11 +5,12 @@ import { Link } from 'gatsby'
 const CvPage = () => {
     return (
         <Layout pageTitle="Curriculum Vitae">
-            <span className='text-cyan-500 hover:opacity-60 font-archivoNarrow pb-10'><Link to="https://github.com/makayla-moster/pdfs/blob/master/cv/Moster_Makayla_CV.pdf?raw=true" target="_blank">pdf version</Link></span>
-            <h1 className='font-archivoNarrow text-3xl pb-3'>Research Interests</h1>
+            <span className='text-cyan-500 hover:opacity-60 font-archivoNarrow text-2xl pb-10'><Link to="https://github.com/makayla-moster/pdfs/blob/master/cv/Moster_Makayla_CV.pdf?raw=true" target="_blank">pdf version</Link></span>
+            {/* <p className='pb-10 text-sm'>For more details, <Link className='text-cyan-500 hover:opacity-60' to="https://github.com/makayla-moster/pdfs/blob/master/cv/Moster_Makayla_CV.pdf?raw=true" target="_blank">please view the PDF</Link> of my CV.</p> */}
+            {/* <h1 className='font-archivoNarrow text-3xl pb-3'>Research Interests</h1>
             <ul className='pb-10'>
                 <li>Computer Science Education, Software Engineering Education, Remote/Hybrid Learning, Remote/Hybrid Work, HCI</li>
-            </ul>
+            </ul> */}
 
             <h1 className='font-archivoNarrow text-3xl pb-3'>Education</h1>
             <ul className='pb-5'>
@@ -57,29 +58,29 @@ const CvPage = () => {
 
             <ul className='pb-5'>
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Graduate Teaching Assistant</span> <span className='float-right'>August 2019 - May 2023</span></li>
-                <li className='float-none pb-3'>School of Computing <span className='float-right'>Clemson University</span></li>
+                <li className='float-none'>School of Computing <span className='float-right'>Clemson University</span></li>
                 <li className='float-none'><span className=' text-cyan-500'>CPSC 4910/4911</span>: Seminar in Professional Issues II <span className='float-right'>2021 - 2023</span></li>
-                <li className='float-none pb-3'>Conducted lab lectures, provided aid, was scrum master for 3 to 6 sections of student SE teams. <br/> (approx. 60-100 undergraduate students)</li>
+                {/* <li className='float-none pb-3'>Conducted lab lectures, provided aid, was scrum master for 3 to 6 sections of student SE teams. <br/> (approx. 60-100 undergraduate students)</li> */}
 
                 <li className='float-none'><span className='text-cyan-500'>CPSC 9500</span>: Graduate Seminar <span className='float-right'>2023</span></li>
-                <li className='float-none pb-3'>Conducted speaker searches, developed course materials, and organized/lead seminar sessions for a departmental, graduate-level seminar course. <br /> (6 graduate students)</li>
+                {/* <li className='float-none pb-3'>Conducted speaker searches, developed course materials, and organized/lead seminar sessions for a departmental, graduate-level seminar course. <br /> (6 graduate students)</li> */}
 
                 <li className='float-none'><span className='text-cyan-500'>CPSC 1010/1011</span>: Computer Science I <span className='float-right'>2019, 2020</span></li>
-                <li className='float-none'>Conducted lab lectures, provided aid and office hourse, and graded weekly introductory programming assignments for 3 sections of students. <br/>(60 undergraduate students)</li>
+                {/* <li className='float-none'>Conducted lab lectures, provided aid and office hourse, and graded weekly introductory programming assignments for 3 sections of students. <br/>(60 undergraduate students)</li> */}
             </ul>
 
             <ul className='pb-5'>
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Instructor</span>, EdASE Coding Camp for Autism <span className='float-right'>2021, 2022, 2023</span></li>
                 <li className='float-none'><span className='hover:text-cyan-500 hover:opacity-60'><Link to="https://edase.org" target="_blank">edase.org</Link></span> <span className='float-right'>Clemson University</span></li>
-                <li className='float-none'>Developed 2D game development course content and activities involving pixel art and videogame narratives.</li>
+                {/* <li className='float-none'>Developed 2D game development course content and activities involving pixel art and videogame narratives.</li>
                 <li className='float-none'>Helped lead camp instruction and developed content for multiple days of camp. </li>
-                <li className='float-none'>Liaison between parents and instructors for the 2022 camp.</li>
+                <li className='float-none'>Liaison between parents and instructors for the 2022 camp.</li> */}
             </ul>
 
             <ul className='pb-10'>
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Instructor</span>, Engineering Expectations <span className='float-right'>June 2018 - August 2019</span></li>
                 <li className='float-none'>Summer & Weekend Camps <span className='float-right'>University of North Carolina Wilmington</span></li>
-                <li className='float-none'>Taught children how to code in HTML/CSS, Python, Javs, and Scratch in several week-long and weekend computer science camps. <br/>(20 students/camp)</li>
+                {/* <li className='float-none'>Taught children how to code in HTML/CSS, Python, Javs, and Scratch in several week-long and weekend computer science camps. <br/>(20 students/camp)</li> */}
 
             </ul>
 
@@ -147,6 +148,8 @@ const CvPage = () => {
                 <li className='float-none'><span className='font-archivoNarrow text-cyan-500 text-2xl'>President</span> <span className='float-right'>Upsilon Pi Epsilon</span></li>
                 <li className='float-none'>University of North Carolina Wilmington<span className='float-right'>August 2018 - May 2019</span></li>
             </ul>
+
+            <p className='pt-10'>For more details, <Link className='text-cyan-500 hover:opacity-60' to="https://github.com/makayla-moster/pdfs/blob/master/cv/Moster_Makayla_CV.pdf?raw=true" target="_blank">please view the PDF</Link> of my CV.</p>
         </Layout>
     )
 }
