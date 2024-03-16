@@ -8,7 +8,7 @@ const PublicationsPage = () => {
     <Layout pageTitle='Publications'>
       <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
       <ul className='pb-5'>
-        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learningn Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", <span className="text-cyan-500 italic">to be presented</span> at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learningn Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", <span className="text-cyan-500 italic">to be presented</span> at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEDU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
         {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
       </ul>
