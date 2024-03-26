@@ -83,7 +83,7 @@ const PublicationsPage = () => {
         <li>I spent a year and a half doing computer graphics research as an undergrad. Below are two projects I completed that had to do with procedurally generating fractal trees using C++ and OpenGL.</li> <br />
         <ul className='pb-5'>
           <li><strong>Conforming Realistic, Procedural Tree Models to User-Drawn Shapes</strong> (2019)</li>
-          <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/Makayla_Moster.pdf?raw=true" target="_blank">poster</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/CSC_499" target="_blank">github</Link></span></li>
+          <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/Makayla_Moster.pdf?raw=true" target="_blank">poster</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/CSC_499" target="_blank">github</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2019_DepartmentalHonorsThesis.pdf?raw=true" target="_blank">bachelor's thesis</Link></span></li>
         </ul>
 
         <ul className='pb-5'>

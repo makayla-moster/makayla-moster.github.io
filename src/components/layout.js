@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, children}) => {
                 <img src={locofy} />
                 </a> */}
                 <h1 className="font-bebasNeue text-6xl mx-auto text-center flex flex-wrap flex-col"><Link to="/" className='hover:opacity-60 '>Makayla Moster</Link></h1>
-                <p className="opacity-60 font-archivoNarrow text-xl mb-2">Computer Science Ph.D. Student @ Clemson University</p>
+                <p className="opacity-60 font-archivoNarrow text-xl mb-2">Computer Science Ph.D. Candidate @ Clemson University</p>
                 <div class="flex flex-wrap items-center text-base justify-center">
                 <ul className="flex list-none no-underline font-archivoNarrow text-4xl">
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/'>home</Link></li>

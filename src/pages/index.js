@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 const IndexPage = () => {
   return (
     <Layout pageTitle='Hello World!'>
-      <p className='pb-5'>Hiya! My name is Makayla Moster and I'm a <span className="text-cyan-500">Computer Science Ph.D. Student at Clemson University</span>.</p> 
+      <p className='pb-5'>Hiya! My name is Makayla Moster and I'm a <span className="text-cyan-500">Computer Science Ph.D. Candidate</span> at Clemson University.</p> 
       <p className='pb-5'>I am a member of the <span className="text-cyan-500 hover:opacity-60"><Link to="http://clemsonhfse.com" target='_blank'>Human Factors Software Engineering lab</Link></span> under the guidance of <span className="text-cyan-500 hover:opacity-60"><Link to="https://paigerodeghero.com" target="_blank">Dr. Paige Rodeghero</Link></span>.</p> 
       <div className="flex lg:mx-auto  space-x-3 grid-flow-row pb-5">
       <StaticImage className="" alt="Words" src="../images/Norway_MM.jpeg"/>

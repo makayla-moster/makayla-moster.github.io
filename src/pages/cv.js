@@ -14,7 +14,7 @@ const CvPage = () => {
 
             <h1 className='font-archivoNarrow text-3xl pb-3'>Education</h1>
             <ul className='pb-5'>
-                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Ph.D. Student, Computer Science</span> <span className='float-right'>August 2019 - Present</span></li>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Ph.D. Candidate, Computer Science</span> <span className='float-right'>August 2019 - Present</span></li>
                 <li className='float-none'>Clemson University</li>
                 <li>Advisor: <span className='hover:text-cyan-500 hover:opacity-60'><Link to="https://paigerodeghero.com" target="_blank">Dr. Paige Rodeghero</Link></span> <span className='float-right hover:text-cyan-500 hover:opacity-60'><Link to="http://clemsonhfse.com" target='_blank'>Human Factors Software Engineering member</Link></span></li>
             </ul>
