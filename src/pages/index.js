@@ -14,7 +14,7 @@ const IndexPage = () => {
       <StaticImage className="" alt="Words" src="../images/Norway_MBMM.jpeg"/>
       </div>
 
-      <p className='pb-5'>I graduated from the University of North Carolina Wilmington with my B.S. (Honors) in Computer Science. During my time at Clemson, I have completed my M.S. in Computer Science and my Graduate Certificate in Engineering and Science Education.</p>
+      <p className='pb-5'>I graduated from the University of North Carolina Wilmington with my <span className="text-cyan-500">B.S. (Honors)</span> in Computer Science. During my time at Clemson, I have completed my <span className="text-cyan-500">M.S.</span> in Computer Science and my <span className="text-cyan-500">Graduate Certificate</span> in Engineering and Science Education.</p>
       <p className='pb-5'>In my limited spare time, I mostly enjoy reading novels and playing videogames. I also dabble in crafting; I am a tie dye enthusiast and a hobby crocheter. Lastly, I enjoy going on walks with my <span className="text-cyan-500 hover:opacity-60"><Link to="https://michael-byrd.github.io" target="_blank">fiancé</Link></span> and cat, Gizmo.</p>
       
     </Layout>

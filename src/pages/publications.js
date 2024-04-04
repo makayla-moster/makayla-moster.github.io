@@ -9,18 +9,17 @@ const PublicationsPage = () => {
       <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
       <ul className='pb-5'>
         <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learning Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", <span className="text-cyan-500 italic">to be presented</span> at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEDU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_CSEDU_InformalLearning.pdf?raw=true" target="_blank">pre-print</Link></span></li>
+      </ul>
+
+      <ul className='pb-5'>
+        <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P., "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
         {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
       </ul>
 
       <ul className='pb-5'>
-        <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P. (2024, June), "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
-        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
-      </ul>
-
-      <ul className='pb-5'>
-        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. (2024, June), "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon. </li>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M., "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
         {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
       </ul>
@@ -66,7 +65,7 @@ const PublicationsPage = () => {
       <h1 className='font-archivoNarrow text-3xl pb-5'>2021</h1>
       <ul className='pb-5'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Ford, D., Rodeghero, P. "'Is My Mic On?' Preparing SE Students for Collaborative Remote Work and Hybrid Team Communication", in Proc. of the 43rd IEEE/ACM International Conference on Software Engineering - Joint Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2021/icse-2021-Software-Engineering-and-Education-Track#About" target="_blank">ICSE JSEET '21</Link></span>), Madrid, Spain (virtual), May 23-29, 2021. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://arxiv.org/abs/2102.01057" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://youtu.be/xTDhabCZOCw?si=Uwbj-OLBN5S32hVD" target="_blank">ICSE talk</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/moster_ford_rodeghero_jseet_presentation_2021.pdf?raw=true" target="_blank">slides</Link></span></li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://arxiv.org/abs/2102.01057" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://youtu.be/xTDhabCZOCw?si=Uwbj-OLBN5S32hVD" target="_blank">talk</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/moster_ford_rodeghero_jseet_presentation_2021.pdf?raw=true" target="_blank">slides</Link></span></li>
       </ul>
 
       <ul className='pb-10'>
