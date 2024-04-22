@@ -14,8 +14,8 @@ const PublicationsPage = () => {
 
       <ul className='pb-5'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P., "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
-        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
+        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li> */}
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/Moster_ASEE2024_Discord.pdf?raw=true" target="_blank">pre-print</Link></span></li>
       </ul>
 
       <ul className='pb-5'>
@@ -25,8 +25,8 @@ const PublicationsPage = () => {
       </ul>
 
       <ul className='pb-10'>
-        <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Boyer, D. M., Rodeghero, P. "Experiences with Summer Camp Communication via Discord", <span className="text-cyan-500 italic">to appear</span> in Proc. of the 46th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track" target="_blank">ICSE SEET '24</Link></span>), Lisbon, Portugal, April 14-20, 2024. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li>
+        <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Boyer, D. M., Rodeghero, P. "Experiences with Summer Camp Communication via Discord", in Proc. of the 46th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track" target="_blank">ICSE SEET '24</Link></span>), Lisbon, Portugal, April 14-20, 2024. </li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span>  | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2024_ICSE_EdASEDiscordExperiences.pdf?raw=true" target="_blank">slides</Link></span></li>
       </ul>
 
       <h1 className='font-archivoNarrow text-3xl pb-5'>2023</h1>
@@ -59,7 +59,7 @@ const PublicationsPage = () => {
 
       <ul className='pb-10'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Re, M., Dominic, J., Lehmann, J., Begel, A., Rodeghero, P. "'Can You Help Me?' An Experience Report of Teamwork in a Game Coding Camp for Autistic High School Students", in Proc. of the 44th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2022/icse-2022-seet?" target="_blank">ICSE SEET '22</Link></span>), Pittsburgh, PA, USA, May 21-29, 2022. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2022_ICSE_SEET_Experience_Report.pdf?raw=true" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://zenodo.org/record/5902445" target="_blank">materials</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://youtu.be/YGufCW6Mq4c?si=OBALjJ-xidLZ-5VE" target="_blank">ICSE talk</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2022_SEET_ExperienceReport.pdf?raw=true" target="_blank">slides</Link></span></li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2022_ICSE_SEET_Experience_Report.pdf?raw=true" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://zenodo.org/record/5902445" target="_blank">materials</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://youtu.be/YGufCW6Mq4c?si=OBALjJ-xidLZ-5VE" target="_blank">talk</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2022_SEET_ExperienceReport.pdf?raw=true" target="_blank">slides</Link></span></li>
       </ul>
 
       <h1 className='font-archivoNarrow text-3xl pb-5'>2021</h1>
