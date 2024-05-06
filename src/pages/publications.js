@@ -8,7 +8,7 @@ const PublicationsPage = () => {
     <Layout pageTitle='Publications'>
       <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
       <ul className='pb-5'>
-        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learning Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", <span className="text-cyan-500 italic">to be presented</span> at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEDU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learning Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", presented at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEDU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
         <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_CSEDU_InformalLearning.pdf?raw=true" target="_blank">pre-print</Link></span></li>
       </ul>
 
@@ -20,13 +20,13 @@ const PublicationsPage = () => {
 
       <ul className='pb-5'>
         <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M., "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li>
-        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span></li> */}
+        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li> */}
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ASEE_CompilingResilience.pdf?raw=true" target="_blank">pre-print</Link></span></li>
       </ul>
 
       <ul className='pb-10'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, E., Boyer, D. M., Rodeghero, P. "Experiences with Summer Camp Communication via Discord", in Proc. of the 46th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-education-and-training-track" target="_blank">ICSE SEET '24</Link></span>), Lisbon, Portugal, April 14-20, 2024. </li>
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span>  | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2024_ICSE_EdASEDiscordExperiences.pdf?raw=true" target="_blank">slides</Link></span></li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ICSE_SEET_DiscordExperienceReport.pdf?raw=true" target="_blank">pre-print</Link></span>  | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2024_ICSE_EdASEDiscordExperiences.pdf?raw=true" target="_blank">slides</Link></span>  | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/ICSE24.JPG?raw=true" target="_blank">presentation photo</Link></span></li>
       </ul>
 
       <h1 className='font-archivoNarrow text-3xl pb-5'>2023</h1>
