@@ -57,20 +57,22 @@ const CvPage = () => {
             <h1 className='font-archivoNarrow text-3xl pb-3'>Teaching Experience</h1>
 
             <ul className='pb-5'>
-                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Graduate Teaching Assistant</span> <span className='float-right'>August 2019 - May 2023</span></li>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Graduate Teaching Assistant</span> <span className='float-right'>August 2019 - Present</span></li>
                 <li className='float-none'>School of Computing <span className='float-right'>Clemson University</span></li>
-                <li className='float-none'><span className=' text-cyan-500'>CPSC 4910/4911</span>: Seminar in Professional Issues II <span className='float-right'>2021 - 2023</span></li>
-                {/* <li className='float-none pb-3'>Conducted lab lectures, provided aid, was scrum master for 3 to 6 sections of student SE teams. <br/> (approx. 60-100 undergraduate students)</li> */}
+                <li className='float-none'><span className=' text-cyan-500'>CPSC 8510</span>: AI-Receptive Software Development <span className='float-right'>2024</span></li>
 
                 <li className='float-none'><span className='text-cyan-500'>CPSC 9500</span>: Graduate Seminar <span className='float-right'>2023</span></li>
                 {/* <li className='float-none pb-3'>Conducted speaker searches, developed course materials, and organized/lead seminar sessions for a departmental, graduate-level seminar course. <br /> (6 graduate students)</li> */}
+
+                <li className='float-none'><span className=' text-cyan-500'>CPSC 4910/4911</span>: Seminar in Professional Issues II <span className='float-right'>2021 - 2023</span></li>
+                {/* <li className='float-none pb-3'>Conducted lab lectures, provided aid, was scrum master for 3 to 6 sections of student SE teams. <br/> (approx. 60-100 undergraduate students)</li> */}
 
                 <li className='float-none'><span className='text-cyan-500'>CPSC 1010/1011</span>: Computer Science I <span className='float-right'>2019, 2020</span></li>
                 {/* <li className='float-none'>Conducted lab lectures, provided aid and office hourse, and graded weekly introductory programming assignments for 3 sections of students. <br/>(60 undergraduate students)</li> */}
             </ul>
 
             <ul className='pb-5'>
-                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Instructor</span>, EdASE Coding Camp for Autism <span className='float-right'>2021, 2022, 2023</span></li>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Instructor</span>, EdASE Coding Camp for Autism <span className='float-right'>2021, 2022, 2023, 2024</span></li>
                 <li className='float-none'><span className='hover:text-cyan-500 hover:opacity-60'><Link to="https://edase.org" target="_blank">edase.org</Link></span> <span className='float-right'>Clemson University</span></li>
                 {/* <li className='float-none'>Developed 2D game development course content and activities involving pixel art and videogame narratives.</li>
                 <li className='float-none'>Helped lead camp instruction and developed content for multiple days of camp. </li>
@@ -116,11 +118,14 @@ const CvPage = () => {
 
             <h1 className='font-archivoNarrow text-3xl pb-3'>Service & Outreach</h1>
             <ul>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Session Moderator</span> <span className='float-right'>ASEE Annual Conference &amp; Exposition 2024</span></li>
+                <li className='float-none pb-5'>Portland, Oregon<span className='float-right'>June 2024</span></li>
+
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Judge</span> <span className='float-right'>Clemson Tigertown Throwdown Robotics Competition</span></li>
                 <li className='float-none pb-5'>Clemson University<span className='float-right'>February 4, 2023</span></li>
                 
                 <li className='float-none'><span className='font-archivoNarrow text-cyan-500 text-2xl'>President</span> <span className='float-right'>School of Computing Graduate Student Associaton</span></li>
-                <li className='float-none pb-5'>Clemson University<span className='float-right'>August 2022 - Present</span></li>
+                <li className='float-none pb-5'>Clemson University<span className='float-right'>August 2022 - May 2024</span></li>
                 {/* <li>SoCGSA is a student organization that represents and holds events for computing graduate students in CS, HCC, DPA, and BDSI.</li>
                 <li className='pb-5'>Conducted administrative duties, organization of events, and task delegation.</li> */}
                 
