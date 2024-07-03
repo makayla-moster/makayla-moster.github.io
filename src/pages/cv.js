@@ -14,7 +14,7 @@ const CvPage = () => {
 
             <h1 className='font-archivoNarrow text-3xl pb-3'>Education</h1>
             <ul className='pb-5'>
-                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Ph.D. Candidate, Computer Science</span> <span className='float-right'>August 2019 - Present</span></li>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Ph.D. Candidate, Computer Science</span> <span className='float-right'>Expected May 2025</span></li>
                 <li className='float-none'>Clemson University</li>
                 <li>Advisor: <span className='hover:text-cyan-500 hover:opacity-60'><Link to="https://paigerodeghero.com" target="_blank">Dr. Paige Rodeghero</Link></span> <span className='float-right hover:text-cyan-500 hover:opacity-60'><Link to="http://clemsonhfse.com" target='_blank'>Human Factors Software Engineering member</Link></span></li>
             </ul>
@@ -118,6 +118,9 @@ const CvPage = () => {
 
             <h1 className='font-archivoNarrow text-3xl pb-3'>Service & Outreach</h1>
             <ul>
+                <li className='float-none'><span className='font-archivoNarrow text-cyan-500 text-2xl'>Invited Panelist</span> <span className='float-right'>New MSCS Sneak Peek</span></li>
+                <li className='float-none pb-5'>Clemson University<span className='float-right'>June &amp; July 2024</span></li>
+
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Session Moderator</span> <span className='float-right'>ASEE Annual Conference &amp; Exposition 2024</span></li>
                 <li className='float-none pb-5'>Portland, Oregon<span className='float-right'>June 2024</span></li>
 

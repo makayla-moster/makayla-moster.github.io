@@ -21,6 +21,7 @@ const Layout = ({ pageTitle, children}) => {
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/'>home</Link></li>
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/publications'>publications</Link></li>
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/cv'>cv</Link></li>
+                    <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/appmats'>application materials</Link></li>
                 </ul>
                 </div>
                 {/* <button class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 mt-4">Click Me</button> */}

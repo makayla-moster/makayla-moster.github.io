@@ -13,15 +13,15 @@ const PublicationsPage = () => {
       </ul>
 
       <ul className='pb-5'>
-        <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P., "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
+        <li><span className="text-cyan-500 underline">Moster, M.</span>, Boyer, D. M., Rodeghero, P., "WIP: Exploring how an Unofficial Discord Server Supports Undergraduate Learning in Computer Science", presented at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
         {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li> */}
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/Moster_ASEE2024_Discord.pdf?raw=true" target="_blank">pre-print</Link></span></li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/Moster_ASEE2024_Discord.pdf?raw=true" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2024_ASEE_Poster.pdf?raw=true" target="_blank">poster</Link></span></li>
       </ul>
 
       <ul className='pb-5'>
-        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M., "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", <span className="text-cyan-500 italic">to be presented</span> at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
+        <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M., "Compiling Resilience: A Study on First-Generation Women Pursuing Computing Degrees", presented at 2024 ASEE Annual Conference & Exposition, Portland, Oregon, USA, June 23-26, 2024. </li>
         {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow">pre-print coming soon</span></li> */}
-        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ASEE_CompilingResilience.pdf?raw=true" target="_blank">pre-print</Link></span></li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2024_ASEE_CompilingResilience.pdf?raw=true" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2024_ASEE_WomenInComputing.pdf?raw=true" target="_blank">slides</Link></span></li>
       </ul>
 
       <ul className='pb-10'>
