@@ -41,7 +41,7 @@ const Layout = ({ pageTitle, children}) => {
             </main>
             <footer className="text-center py-8 text-cyan-500 dark:bg-zinc-700 bg-zinc-700">
                 <p className="flex items-center justify-center space-x-3 pb-2" ><Link to="https://github.com/makayla-moster" target='_blank'><FaGithub size={25} className="hover:opacity-80"/></Link> <Link to="https://www.linkedin.com/in/mmoster/" target='_blank'><FaLinkedin size={25} className="hover:opacity-80"/></Link> <Link to="https://scholar.google.com/citations?hl=en&user=hfjoBY0AAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F6q4Yy8oZ1N-1PjHDlI43gZQ1nmm8XomMXrrhwpRFxWpR_a8qtSDCVdobWC_Ygqe73rHO-tQENKNUes3zLENciYerbEJA" target='_blank'><SiGooglescholar size={25} className="hover:opacity-80"/></Link> <Link to="https://orcid.org/0000-0002-0661-0550" target='_blank'><FaOrcid size={25} className="hover:opacity-80"/></Link></p>
-                <p className="font-archivoNarrow text-l hover:opacity-100 opacity-60"><Link to="mailto:mmoster@clemson.edu">mmoster@clemson.edu</Link></p>
+                <p className="font-archivoNarrow text-l hover:opacity-100 opacity-60"><Link to="mailto:makaylamoster@gmail.com">makaylamoster@gmail.com</Link></p>
                 <p className="font-bebasNeue text-xl">Makayla Moster &copy; 2024</p>
             </footer>
         </html>
