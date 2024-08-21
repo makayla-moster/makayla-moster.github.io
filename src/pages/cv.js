@@ -59,7 +59,7 @@ const CvPage = () => {
             <ul className='pb-5'>
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Graduate Teaching Assistant</span> <span className='float-right'>August 2019 - Present</span></li>
                 <li className='float-none'>School of Computing <span className='float-right'>Clemson University</span></li>
-                <li className='float-none'><span className=' text-cyan-500'>CPSC 8510</span>: AI-Receptive Software Development <span className='float-right'>2024</span></li>
+                <li className='float-none'><span className=' text-cyan-500'>CPSC 8740</span>: AI-Receptive Software Development <span className='float-right'>2024</span></li>
 
                 <li className='float-none'><span className='text-cyan-500'>CPSC 9500</span>: Graduate Seminar <span className='float-right'>2023</span></li>
                 {/* <li className='float-none pb-3'>Conducted speaker searches, developed course materials, and organized/lead seminar sessions for a departmental, graduate-level seminar course. <br /> (6 graduate students)</li> */}
