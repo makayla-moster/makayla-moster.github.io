@@ -57,6 +57,15 @@ const CvPage = () => {
             <h1 className='font-archivoNarrow text-3xl pb-3'>Teaching Experience</h1>
 
             <ul className='pb-5'>
+                <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Instructor of Record</span><span className='float-right'>January 2025 - May 2025</span></li>
+                <li className='float-none'>Department of Computer Science<span className='float-right'>University of North Carolina Wilmington</span></li>
+                <li className='float-none'><span className=' text-cyan-500'>CIT 425</span>: Human-Computer Interfaces</li>
+                {/* <li className='float-none'>Developed 2D game development course content and activities involving pixel art and videogame narratives.</li>
+                <li className='float-none'>Helped lead camp instruction and developed content for multiple days of camp. </li>
+                <li className='float-none'>Liaison between parents and instructors for the 2022 camp.</li> */}
+            </ul>
+
+            <ul className='pb-5'>
                 <li><span className='font-archivoNarrow text-cyan-500 text-2xl'>Graduate Teaching Assistant</span> <span className='float-right'>August 2019 - Present</span></li>
                 <li className='float-none'>School of Computing <span className='float-right'>Clemson University</span></li>
                 <li className='float-none'><span className=' text-cyan-500'>CPSC 8740</span>: AI-Receptive Software Development <span className='float-right'>2024</span></li>
