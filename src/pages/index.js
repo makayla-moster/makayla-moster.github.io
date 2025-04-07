@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle='Hello World!'>
       <p className='pb-5'>Hiya! My name is Makayla Moster and I'm a <span className="text-cyan-500">Computer Science Ph.D. Candidate</span> at Clemson University.</p> 
-      <p className='text-center'><span className="text-cyan-500 font-bold">I am on the job market and looking for academic positions starting in Fall 2025!</span></p> 
-      <p   className='pb-5 text-center'>You can find my application materials <span className="text-cyan-500 hover:opacity-60"><Link to='/appmats'>here</Link></span>.</p>
+      {/* <p className='text-center'><span className="text-cyan-500 font-bold">I am on the job market and looking for academic positions starting in Fall 2025!</span></p> 
+      <p   className='pb-5 text-center'>You can find my application materials <span className="text-cyan-500 hover:opacity-60"><Link to='/appmats'>here</Link></span>.</p> */}
       
       <div className="flex lg:mx-auto  space-x-3 grid-flow-row pb-5">
       <StaticImage className="" alt="Words" src="../images/Norway_MM.jpeg"/>
