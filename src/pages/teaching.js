@@ -16,7 +16,7 @@ const TeachingPage = () => {
             <ul className='pb-8'>
                 <li><span className="text-cyan-500">CPSC 8740</span>: AI-Receptive Software Development <span className='float-right'>2024, 2025</span></li>
                 <li className='float-none'><span className="text-cyan-500">CPSC 9500</span>: Graduate Seminar <span className='float-right'>2023</span></li>
-                <li className='float-none'><span className="text-cyan-500">CPSC 4910/4911</span>: Graduate Seminar <span className='float-right'>2021 - 2023</span></li>
+                <li className='float-none'><span className="text-cyan-500">CPSC 4910/4911</span>: Senior Computing Practicum <span className='float-right'>2021 - 2023</span></li>
                 <li className='float-none'><span className="text-cyan-500">CPSC 1010/1011</span>: Computer Science I <span className='float-right'>2019, 2020</span></li>
             </ul>
 
