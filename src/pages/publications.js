@@ -6,6 +6,12 @@ import { Link } from 'gatsby'
 const PublicationsPage = () => {
   return (
     <Layout pageTitle='Publications'>
+      <h1 className='font-archivoNarrow text-3xl pb-5'>2025</h1>
+      <ul className='pb-5'>
+        <li><span className="text-cyan-500 underline">Moster, M.</span> "Learning Through Online Participation: From Breakout Rooms to Discord" (2025). All Dissertations. 3900.</li>
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://open.clemson.edu/all_dissertations/3900" target="_blank">dissertation download</Link></span></li>
+      </ul>
+
       <h1 className='font-archivoNarrow text-3xl pb-5'>2024</h1>
       <ul className='pb-5'>
         <li>Kokinda, E., <span className="text-cyan-500 underline">Moster, M.</span>, Rodeghero, P., Boyer, D. M. "Informal Learning Opportunities - Neurodiversity, Self-Efficacy, and Motivation for Programming Interest", presented at the 16th International Conference on Computer Supported Education (<span className="text-cyan-500 hover:opacity-60"><Link to="https://csedu.scitevents.org/" target="_blank">CSEDU '24</Link></span>), Angers, France, May 2-4, 2024. </li>
