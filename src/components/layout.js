@@ -21,7 +21,7 @@ const Layout = ({ pageTitle, children}) => {
                 <ul className="flex list-none no-underline font-archivoNarrow text-4xl">
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/'>home</Link></li>
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/teaching'>teaching</Link></li>
-                    <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/publications'>publications</Link></li>
+                    <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/publications'>research</Link></li>
                     <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to="https://github.com/makayla-moster/pdfs/blob/master/cv/Moster_Makayla_CV.pdf?raw=true" target="_blank">cv download</Link></li>
                     {/* <li className="hover:opacity-60 text-sm sm:text-lg pr-6"><Link to='/appmats'>application materials</Link></li> */}
                 </ul>

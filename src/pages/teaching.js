@@ -5,14 +5,14 @@ import { Link } from 'gatsby'
 
 const TeachingPage = () => {
     return (
-        <Layout pageTitle="Courses">
-            <h1 className='font-archivoNarrow text-3xl pb-3'>UNCW Instructor of Record</h1>
+        <Layout pageTitle="Teaching">
+            <h1 className='font-archivoNarrow text-3xl pb-3'>UNCW</h1>
             <ul className='pb-8'>
-                <li><span className="text-cyan-500">CIT 425</span>: Human-Computer Interfaces <span className='float-right'>Spring, Fall 2025</span></li>
+                <li><span className="text-cyan-500">CIT 425</span>: Human-Computer Interfaces <span className='float-right text-cyan-500 hover:opacity-60 font-archivoNarrow'><Link to="https://github.com/makayla-moster/pdfs/blob/master/CIT425_Syllabus.pdf?raw=truw" target="_blank">syllabus</Link></span></li>
                 {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="" target="_blank">syllabus here soon</Link></span></li> */}
                 <li className='float-none'></li>
 
-                <li><span className="text-cyan-500">CIT 213</span>: Introduction to Databases <span className='float-right'>Fall 2025</span></li>
+                <li><span className="text-cyan-500">CIT 213</span>: Introduction to Databases <span className='float-right text-cyan-500 hover:opacity-60 font-archivoNarrow'><Link to="https://github.com/makayla-moster/pdfs/blob/master/CIT213_Syllabus.pdf?raw=true" target="_blank">syllabus</Link></span></li>
                 {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="" target="_blank">syllabus here soon</Link></span></li> */}
                 <li className='float-none'></li>
             </ul>

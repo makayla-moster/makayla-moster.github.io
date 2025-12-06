@@ -1,11 +1,34 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-// import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 
 const PublicationsPage = () => {
   return (
-    <Layout pageTitle='Publications'>
+    <Layout pageTitle='Research &amp; Publications'>
+
+
+
+      <h1 className='font-archivoNarrow text-cyan-500 text-3xl pb-5'>Research Interests</h1>
+      <p>My research interests are very broad but mostly focus on Computing Education. Some current interests include:</p>
+      <ul className='pb-5 pl-10'>
+        <li>1. Computing-focused <span className="text-cyan-500">informal learning communities</span> and their benefits</li>
+        <li>2. How to best utilize <span className="text-cyan-500">informal computer-mediated communication tools</span> in educational settings</li>
+        <li>3. Broad interests in <span className="text-cyan-500">AI &amp; Computing Education</span></li>
+        <li>4. Reducing <span className="text-cyan-500">imposter phenomenon</span> in computing students</li>
+        <li>5. Improving the student <span className="text-cyan-500">teamwork experience</span></li>
+      </ul>
+
+      <h1 className='font-archivoNarrow text-cyan-500 text-3xl pt-5 pb-5'>Prospective Students</h1>
+      <p className='pb-10'>I am always interested in working with motivated students! Please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">reach out</Link></span> if you're interested in working with me.</p>
+
+      <div className="flex lg:mx-auto space-x-3 grid-flow-row pb-5">
+      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/cscw2023.jpg"/>
+      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/makayla-moster-ICSE24-cropped.JPG"/>
+      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/Norway_MBMM.jpeg"/>
+      </div>
+
+      <h1 className='font-archivoNarrow text-cyan-500 text-3xl pt-5 pb-5'>Publications</h1>
       <h1 className='font-archivoNarrow text-3xl pb-5'>2025</h1>
       <ul className='pb-5'>
         <li><span className="text-cyan-500 underline">Moster, M.</span> "Learning Through Online Participation: From Breakout Rooms to Discord" (2025). All Dissertations. 3900.</li>
