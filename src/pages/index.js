@@ -18,16 +18,15 @@ const IndexPage = () => {
           <p className='pb-5'>My research is broadly focused on Computing Education. Some topics that I'm interested in investigating include <span className="text-cyan-500">informal learning communities</span>, <span className="text-cyan-500">AI + Computing Education</span>, and <span className="text-cyan-500">imposter phenomenon</span>. <br/> More information about my research and publications is <span className="text-cyan-500 hover:opacity-60"><Link to='/publications'>here</Link></span>.</p>
           <h1 className='font-archivoNarrow text-3xl pb-3'>Student Research Opportunities</h1>
           <p className='pb-5'>I am always interested in working with motivated students! <br/>Please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">send an email</Link></span> if you're interested in working with me.</p>
-          <h1 className='font-archivoNarrow text-3xl pb-3'>Fall 2025 Courses</h1>
+          <h1 className='font-archivoNarrow text-3xl pb-3'>Spring 2026 Courses</h1>
       <ul className='pb-3 pl-5'>
         <li>CIT 213: Introduction to Databases</li>
         <li>CIT 425: Human-Computer Interfaces</li>
       </ul>
-      <h1 className='font-archivoNarrow text-2xl pb-3'>Office Hours</h1>
+      <h1 className='font-archivoNarrow text-3xl pb-3'>Spring 2026 Office Hours</h1>
       <ul className='pb-3 pl-5'>
-        <li>Wednesdays, 9:30-11:30am</li>
-        <li>Thursdays, 9:30-11:30am</li>
-        <li>By appointment when necessary</li>
+        <li>Day(s) and time(s) TBA</li>
+        <li>By appointment, please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">send an email</Link></span> to schedule</li>
       </ul>
         </div>
         <div className='basis-1/3 pl-10'>
