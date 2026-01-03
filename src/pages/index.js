@@ -25,7 +25,8 @@ const IndexPage = () => {
       </ul>
       <h1 className='font-archivoNarrow text-3xl pb-3'>Spring 2026 Office Hours</h1>
       <ul className='pb-3 pl-5'>
-        <li>Day(s) and time(s) TBA</li>
+        <li>Mondays, 9-11am</li>
+        <li>Wednesdays, 9-11am</li>
         <li>By appointment, please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">send an email</Link></span> to schedule</li>
       </ul>
         </div>
