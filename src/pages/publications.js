@@ -20,19 +20,19 @@ const PublicationsPage = () => {
       </ul>
 
       <h1 className='font-archivoNarrow text-cyan-500 text-3xl pt-5 pb-5'>Prospective Students</h1>
-      <p className='pb-10'>I am always interested in working with motivated students! Please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">reach out</Link></span> if you're interested in working with me.</p>
+      <p className='pb-10'>I am always interested in working with motivated students! Please <span className="text-cyan-500 hover:opacity-60"><Link to="mailto:mosterm@uncw.edu">reach out via email</Link></span> if you're interested in working with me.</p>
 
       <div className="flex lg:mx-auto space-x-3 grid-flow-row pb-5">
-      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/cscw2023.jpg"/>
-      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/makayla-moster-ICSE24-cropped.JPG"/>
-      <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/Norway_MBMM.jpeg"/>
+        <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/Moster_ICSE26.jpg"/>
+        <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/makayla-moster-ICSE24-cropped.JPG"/>
+        <StaticImage className="rounded-xl" width="960" alt="Words" src="../images/cscw2023.jpg"/>
       </div>
 
       <h1 className='font-archivoNarrow text-cyan-500 text-3xl pt-5 pb-5'>Publications</h1>
       <h1 className='font-archivoNarrow text-3xl pb-5'>2026</h1>
       <ul className='pb-5'>
         <li><span className="text-cyan-500 underline">Moster, M.</span>, Kokinda, K., Boyer, D. M., Rodeghero, P. "Leveling Up: Experiences and Evidence-Driven Upgrades to a Game Coding Camp for Autistic High School Students", to be in Proc. of the 48th IEEE/ACM International Conference on Software Engineering - Software Engineering Education and Training Track (<span className="text-cyan-500 hover:opacity-60"><Link to="https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-education-and-training--seet-" target="_blank">ICSE SEET '26</Link></span>), Rio de Janiero, Brazil, April 12-18, 2026.</li>
-        {/* <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="" target="_blank">pre-print coming soon</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="" target="_blank">additional materials coming soon</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="" target="_blank">slides coming soon</Link></span></li> */}
+        <li><span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/papers/2026_ICSE_SEET_LevelingUp.pdf?raw=true" target="_blank">pre-print</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://github.com/makayla-moster/pdfs/blob/master/slides/2026_ICSE_SEET_LevelingUpPresentation.pdf?raw=true" target="_blank">slides</Link></span> | <span className="text-cyan-500 hover:opacity-60 font-archivoNarrow"><Link to="https://zenodo.org/records/17955400" target="_blank">additional materials</Link></span> </li>
       </ul>
 
       <h1 className='font-archivoNarrow text-3xl pb-5'>2025</h1>
